@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        springBootVersion = '2.4.1 RELEASE'
+        springBootVersion = '2.1.7 RELEASE'
     }
     repositories {
         mavenCentral()
@@ -26,8 +26,17 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.testng:testng:7.1.0'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'junit:junit:4.12'
+    compileOnly 'org.projectlombok:lombok'
+    implementation 'com.h2database:h2' //
+    testImplementation 'com.h2database:h2'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa' //스프링부트 JPA 라이브러리 관리
+    testImplementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    annotationProcessor 'org.projectlombok:lombok'
 }
+
 
 test {
     useJUnitPlatform()
