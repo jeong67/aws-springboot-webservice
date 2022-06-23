@@ -1,7 +1,7 @@
-package com.jojoldu.book.springboot.config.auth.dto;
+package com.jojoldu.book.springboot.domain.posts.config.auth.dto;
 
 
-import com.jojoldu.book.springboot.domain.posts.user.User;
+import com.jojoldu.book.springboot.service.posts.user.User;
 import lombok.Getter;
 
 import java.io.Serializable;

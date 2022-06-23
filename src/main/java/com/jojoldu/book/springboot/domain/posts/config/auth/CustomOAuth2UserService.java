@@ -1,10 +1,10 @@
-package com.jojoldu.book.springboot.config.auth;
+package com.jojoldu.book.springboot.domain.posts.config.auth;
 
 
-import com.jojoldu.book.springboot.config.auth.dto.OAuthAttributes;
-import com.jojoldu.book.springboot.config.auth.dto.SessionUser;
-import com.jojoldu.book.springboot.domain.posts.user.User;
-import com.jojoldu.book.springboot.domain.posts.user.UserRepository;
+import com.jojoldu.book.springboot.domain.posts.config.auth.dto.OAuthAttributes;
+import com.jojoldu.book.springboot.domain.posts.config.auth.dto.SessionUser;
+import com.jojoldu.book.springboot.service.posts.user.User;
+import com.jojoldu.book.springboot.service.posts.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService;

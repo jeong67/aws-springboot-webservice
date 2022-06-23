@@ -1,4 +1,4 @@
-package com.jojoldu.book.springboot.domain.posts.user;
+package com.jojoldu.book.springboot.service.posts.user;
 
 import com.jojoldu.book.springboot.domain.posts.BaseTimeEntity;
 import lombok.Builder;

@@ -1,4 +1,4 @@
-package com.jojoldu.book.springboot.domain.posts.user;
+package com.jojoldu.book.springboot.service.posts.user;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

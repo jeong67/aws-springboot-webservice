@@ -1,6 +1,6 @@
-package com.jojoldu.book.springboot.config.auth;
+package com.jojoldu.book.springboot.domain.posts.config.auth;
 
-import com.jojoldu.book.springboot.domain.posts.user.Role;
+import com.jojoldu.book.springboot.service.posts.user.Role;
 import lombok.RequiredArgsConstructor;
 
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
